@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/lqqyt2423/go-mitmproxy/addon"
-	"github.com/lqqyt2423/go-mitmproxy/internal/helper"
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
-	"github.com/lqqyt2423/go-mitmproxy/web"
+	"github.com/mh4x0f/go-mitmproxy/addon"
+	"github.com/mh4x0f/go-mitmproxy/internal/helper"
+	"github.com/mh4x0f/go-mitmproxy/proxy"
+	"github.com/mh4x0f/go-mitmproxy/web"
 	log "github.com/sirupsen/logrus"
 )
 

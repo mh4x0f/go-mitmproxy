@@ -1,4 +1,4 @@
-module github.com/lqqyt2423/go-mitmproxy
+module github.com/mh4x0f/go-mitmproxy
 
 go 1.22
 

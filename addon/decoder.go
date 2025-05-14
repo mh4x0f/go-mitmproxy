@@ -1,6 +1,6 @@
 package addon
 
-import "github.com/lqqyt2423/go-mitmproxy/proxy"
+import "github.com/mh4x0f/go-mitmproxy/proxy"
 
 // decode content-encoding then respond to client
 

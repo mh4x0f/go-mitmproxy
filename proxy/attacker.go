@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/lqqyt2423/go-mitmproxy/cert"
-	"github.com/lqqyt2423/go-mitmproxy/internal/helper"
+	"github.com/mh4x0f/go-mitmproxy/cert"
+	"github.com/mh4x0f/go-mitmproxy/internal/helper"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/http2"
 )

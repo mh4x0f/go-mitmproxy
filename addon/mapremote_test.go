@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
+	"github.com/mh4x0f/go-mitmproxy/proxy"
 )
 
 func TestMapItemMatch(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/lqqyt2423/go-mitmproxy/proxy"
+	"github.com/mh4x0f/go-mitmproxy/proxy"
 	log "github.com/sirupsen/logrus"
 )
 
