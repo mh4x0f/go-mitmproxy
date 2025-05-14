@@ -105,7 +105,7 @@ func (ml *MapLocal) Requestheaders(f *proxy.Flow) {
 		if item.match(f.Request) {
 			aurl := f.Request.URL.String()
 			localfile, resp := item.response(f.Request)
-			log.Infof("map local %v to %v", aurl, localfile)
+			log.Debug("map local %v to %v", aurl, localfile)
 			f.Response = resp
 			return
 		}

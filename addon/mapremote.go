@@ -8,7 +8,6 @@ import (
 	"github.com/lqqyt2423/go-mitmproxy/internal/helper"
 	"github.com/lqqyt2423/go-mitmproxy/proxy"
 	"github.com/samber/lo"
-	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/match"
 )
 
@@ -91,11 +90,8 @@ func (mr *MapRemote) Requestheaders(f *proxy.Flow) {
 	}
 	for _, item := range mr.Items {
 		if item.match(f.Request) {
-			aurl := f.Request.URL.String()
 			f.Request = item.replace(f.Request)
 			f.UseSeparateClient = true
-			burl := f.Request.URL.String()
-			log.Infof("map remote %v to %v", aurl, burl)
 			return
 		}
 	}

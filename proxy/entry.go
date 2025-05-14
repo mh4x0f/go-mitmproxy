@@ -156,7 +156,6 @@ func (e *entry) start() error {
 		return err
 	}
 
-	log.Infof("Proxy start listen at %v\n", e.server.Addr)
 	pln := &wrapListener{
 		Listener: ln,
 		proxy:    e.proxy,
